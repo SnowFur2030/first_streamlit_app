@@ -49,7 +49,7 @@ streamlit.write('The user entered ', fruit_choice)
 
 
 # don't run while troublshooting
-streamlit.stop()
+# streamlit.stop()
 
 # snowflake connector stuff
 streamlit.header("The fruit load list contains:")
