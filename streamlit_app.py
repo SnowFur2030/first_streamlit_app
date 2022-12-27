@@ -28,7 +28,7 @@ streamlit.dataframe(fruits_to_show)
 streamlit.header("Fruityvice Fruit Advice!")
 streamlit.text(fruityvice_response.json())
 
-# write your own comment -what does the next line do? 
+# removes the data formating 
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
-# write your own comment - what does this do?
+# puts the data into a table
 streamlit.dataframe(fruityvice_normalized)
